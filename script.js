@@ -1,13 +1,14 @@
- const insertbtn=document.querySelector(".insertbtn")
+ // const insertbtn=document.querySelector(".insertbtn")
 function insert_Row() {
-  var table=document.getElementById("sampleTable");
-	var newRow=table.insertRow(0);
-	
-	var cell1=newRow.insertCell(0);
-	var cell2=newRow.insertCell(1);
+ const table=document.querySelector("#sampleTable");
+	const Row=table.insertRow(0);
+	const cell1=Row.insertCell(0);
+	const cell2=Row.insertCell(1);
 
 	cell1.innerHTML="New Cell1";
-	cell2.innerHTML="New Cell2";
+	cell2.innerHTML="New Cell2"
+
+	
   
   
 }
